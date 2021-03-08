@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Project</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>  
+  <body>
+    <div class="curtain-left-closed"> 
+    </div>
+    <div class="curtain-right-closed">
+    </div>
+    
+    <div class="notes">
+      <div class="notes-left">
+         	<i class="fas fas fa-caret-left" onclick="moveLeft()"></i>
+      </div>
+      
+      <div class="notes-wrapper visible">
+        <div class="title">
+          On Photography/Pain of Others
+        </div>
+        <div class="note-pad">
+          <h1>
+            "As photographs give people an imaginary possession of a past that is unreal, they 
+            also help people to take possession of space in which they are insecure. Photos are 
+            essentially a map: they are a way of displaying space."
+          </h1>
+          <p>
+            I remember before reading this quote; In my geopolitics class, we talked about maps and the 
+            various types of maps. I was kind of surprised when my teacher mentioned photographs as being 
+            a type of map, but it made a lot of sense. Photographs help us map out a time or space and makes
+            them more accessible and concrete. A really cool feature that Google Photos has is an ability to
+            view a map where all your photos were taken. This makes a map of NYC feel much more personal 
+            and also much more concrete.
+          </p>
+        </div>
+      </div>
+      <div class="notes-wrapper hidden">
+        <div class="title">
+          On Photography/Pain of Others
+        </div>
+        <div class="note-pad">
+          <h1>
+            "To set aside the sympathy we extend to others beset by war and murderous politics for a
+            reflection on how our privileges are located on the same map as their suffering, 
+            ... , as the wealth of some may imply the destitution of others, is a task for which the painful, 
+            stirring images supply only an initial spark."
+          </h1>
+          <p>
+            This quote resonated with me as I grew up in a poor North-African country. When I immigrated here, 
+            my family would always watch the news from our home country, and I would always see the issues 
+            that were happening back there. I felt that "initial spark" that the quote talked about but I 
+            couldn't do much except realize the privilege that I was able to immigrate here. 
+          </p>
+        </div>
+      </div>
+      
+      <div class="notes-right">
+         	<i class="fas fas fa-caret-right" onclick="moveRight()"></i>
+      </div>
+    </div>
+    
+    
+    <a onclick="transitionBackToPage('../index.html')" >
+      <div class="exit">
+        exit
+      </div>
+    </a>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Project</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>  
+  <body>
+    <div class="curtain-left-closed"> 
+    </div>
+    <div class="curtain-right-closed">
+    </div>
+    
+    <div class="notes">
+      <div class="notes-left">
+         	<i class="fas fas fa-caret-left" onclick="moveLeft()"></i>
+      </div>
+      
+      <div class="notes-wrapper visible">
+        <div class="title">
+          A Clean, Well-Lighted Place
+        </div>
+        <div class="note-pad">
+          <h1>
+            "It is their something, it’s what is left as the black hole of nothingness slowly consumes everything around them as they age."
+          </h1>
+          <p>
+            I value this quote from our class greatly as it helps answer how our future lives will be. 
+            Without the activities, the things or people that we are passionate about, 
+            we are more likely to succumb to dread and nothingness, leading to a future of misery.
+            In order to retain our youngness, we must try our best to maintain the things we love, 
+            and through them, we can stay young forever.
+          </p>
+        </div>
+      </div>
+      <div class="notes-wrapper hidden">
+        <div class="title">
+          A Clean, Well-Lighted Place
+        </div>
+        <div class="note-pad">
+          <h1>
+            "He was in despair." <br />
+            "What about?"  <br />
+            "Nothing."   <br />
+            "How do you know it was nothing? He has plenty of money."  <br />
+          </h1>
+          <p>
+            This quote from ACWLP resonated with me as it shows that money can't get you out of the void of "nothingness."
+            Money can realistically only keep you away from that void by allowing you to spend more time with the thing,
+            person, or activity that you love. But if you lose them, only you can find a way to come back or discover 
+            something new to fill that void. 
+          </p>
+        </div>
+      </div>
+      
+      <div class="notes-right">
+         	<i class="fas fas fa-caret-right" onclick="moveRight()"></i>
+      </div>
+    </div>
+    
+    
+    <a onclick="transitionBackToPage('../index.html')" >
+      <div class="exit">
+        exit
+      </div>
+    </a>
+  </body>
+</html>

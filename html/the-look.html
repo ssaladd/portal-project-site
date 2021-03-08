@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Project</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>  
+  <body>
+    <div class="curtain-left-closed"> 
+    </div>
+    <div class="curtain-right-closed">
+    </div>
+    
+    <div class="notes">
+      <div class="notes-left">
+         	<i class="fas fas fa-caret-left" onclick="moveLeft()"></i>
+      </div>
+      
+      <div class="notes-wrapper visible">
+        <div class="title">
+          The Look
+        </div>
+        <div class="note-pad">
+          <h1>
+            "Someone is looking at me. What does this mean? It means that I am suddenly affected in my being and that essential 
+            modifications appear in my structure - modifications which I can apprehend and fix conceptually 
+            by means of the reflective cogito."
+          </h1>
+          <p>
+            This quote is relevant as it is applicable in daily life when we interact with others.
+            It highlights how much we care about others' opinion; we want to portray ourselves in the best way possible, 
+            sometimes even trying to portray ourselves in unrealistic standards. 
+            It is important to realize that we don't need to be the best of the best and to be continually 
+            changing ourselves for others and instead, realize it is okay to be imperfect.
+          </p>
+        </div>
+      </div>
+      <div class="notes-wrapper hidden">
+        <div class="title">
+          The Look
+        </div>
+        <div class="note-pad">
+          <h1>
+            "you recognize that there is another point of view on things, a point of view that ON PRINCIPLE 
+            you can never occupy. All of a sudden, the world comes on to you as referring not just to your point 
+            of view, but to another one too"
+          </h1>
+          <p>
+            This quote is humbling as it reminds you that the world does not revolve around you and that other
+            people in the world go on with their lives just like you. But we usually forget about that until 
+            "the look" happens to you. This makes "the look" another kind of necessary thing we need in our world 
+            if we are to keep acknowledging the lives of others and if we are to become better socially. 
+          </p>
+        </div>
+      </div>
+      
+      <div class="notes-right">
+         	<i class="fas fas fa-caret-right" onclick="moveRight()"></i>
+      </div>
+    </div>
+    
+    
+    <a onclick="transitionBackToPage('../index.html')" >
+      <div class="exit">
+        exit
+      </div>
+    </a>
+  </body>
+</html>

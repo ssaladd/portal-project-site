@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Project</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>  
+  <body>
+    <div class="curtain-left-closed"> 
+    </div>
+    <div class="curtain-right-closed">
+    </div>
+    
+    <div class="notes">
+      <div class="notes-left">
+         	<i class="fas fas fa-caret-left" onclick="moveLeft()"></i>
+      </div>
+      
+      <div class="notes-wrapper visible">
+        <div class="title">
+          What is Metaphysics
+        </div>
+        <div class="note-pad">
+          <h1>
+            "The dread directs you towards the things that are slipping out of meaning 
+            by edging you into a world without them, and pulling you back."
+          </h1>
+          <p>
+            I wrote this quote because it reflected what happened to me during quarantine/lockdown.
+            I was essentially dipped into a world without the "somethings" I value. 
+            I couldn't play soccer, couldn't see my friends, do various activities, etc. And as a result, 
+            I felt a bit of dread, which in turn made me realize how valuable these things were. And 
+            that realization renewed my passions for those things I valued.
+          </p>
+        </div>
+      </div>
+      <div class="notes-wrapper hidden">
+        <div class="title">
+          What is Metaphysics
+        </div>
+        <div class="note-pad">
+          <h1>
+           "The nothing is not an object, and it is no thing at all. The nothing 
+            does not show up for itself, nor does it show up “next to” things as if it were attached to them. 
+            Rather, the nothing is what makes it possible for anything to be meaningfully present within our human openness."
+          </h1>
+          <p>
+            This is a significant quote as it paints a critical human emotion in a different light: the feeling of nothing.
+            Feeling nothing is usually viewed negatively as if it is a bad emotion to experience. But this quote paints it as 
+            a vital emotion which guides to the things we love. And as a result, we feel re-energized and happy as we are spending
+            time with the things we want once more.
+          </p>
+        </div>
+      </div>
+      
+      <div class="notes-right">
+         	<i class="fas fas fa-caret-right" onclick="moveRight()"></i>
+      </div>
+    </div>
+    
+    
+    <a onclick="transitionBackToPage('../index.html')" >
+      <div class="exit">
+        exit
+      </div>
+    </a>
+  </body>
+</html>

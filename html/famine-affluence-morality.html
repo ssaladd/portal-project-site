@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Project</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>  
+  <body>
+    <div class="curtain-left-closed"> 
+    </div>
+    <div class="curtain-right-closed">
+    </div>
+    
+    <div class="notes">
+      <div class="notes-left">
+         	<i class="fas fas fa-caret-left" onclick="moveLeft()"></i>
+      </div>
+      
+      <div class="notes-wrapper visible">
+        <div class="title">
+          Famine, Affluence, and Morality
+        </div>
+        <div class="note-pad">
+          <h1>
+            "Most of these problems are not caused by the common person and instead are caused by an oligarchy
+            of power and wealth holders which only care for their self interest. In order to finally break 
+            free from this circle donation and poverty we must hold the countries, companies and wealth 
+            holders accountable for these events."
+          </h1>
+          <p>
+            This quote is super important right now as we are seeing a rise in the concentration of power 
+            and money towards a small group of people and companies, which in turn cause many of these problems.
+            In order to stop them from using their power in a corrupt and destructive manner,
+            they must be held accountable, and when they are, we can stop the cycle of
+            poverty and exploitation. 
+          </p>
+        </div>
+      </div>
+      <div class="notes-wrapper hidden">
+        <div class="title">
+          Famine, Affluence, and Morality
+        </div>
+        <div class="note-pad">
+          <h1>
+            "It follows from what I have said earlier that we ought to give money away, 
+            rather than spend it on clothes which we do not need to keep us warm. 
+            To do so is not charitable, On the contrary, we ought to give the money away,
+            and it is wrong not to do so.
+          </h1>
+          <p>
+            A lot of our society is influenced by consumerism and overconsumption of unnecessary goods, 
+            and I personally have never liked this attribute of our society. This is why I value this quote, 
+            and I agree with the fact that we shouldn't waste money on materialistic goods and instead use it 
+            for something good or an investment. Or at the very least, instead, use it for experiences that we
+            can remember and cherish. 
+          </p>
+        </div>
+      </div>
+      
+      <div class="notes-right">
+         	<i class="fas fas fa-caret-right" onclick="moveRight()"></i>
+      </div>
+    </div>
+    
+    
+    <a onclick="transitionBackToPage('../index.html')" >
+      <div class="exit">
+        exit
+      </div>
+    </a>
+  </body>
+</html>
